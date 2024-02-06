@@ -1,0 +1,88 @@
+.contacts .container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 30px;
+}
+
+.contacts h3{
+    font-size: 36px;
+    line-height: 43px;
+    color: #212121;
+    font-family: "Raleway";
+    text-align: center;
+}
+
+.contacts img {
+    padding: 30px;
+}
+
+.contacts p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #86878b;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.contacts .forms{
+    padding-top: 80px;
+}
+
+.contacts .forms form{
+    max-width: 100%;
+    max-height: 150px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+}
+
+.contacts .forms input{
+    width: 525px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #bdbdbd;
+    font-weight: 400;
+    font-family: "Open Sans";
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.contacts .forms input#email{
+    margin: 25px 0px;
+    margin-right: 65px;
+}
+
+.contacts .forms input#msg{
+    height: 146px;
+}
+
+.contacts .forms .button{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.contacts .forms .button button{
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Open Sans";
+    background-color: #ff9b51;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 1200px) {
+    .contacts .forms form{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: start;
+        align-items: start;
+    }
+}
+

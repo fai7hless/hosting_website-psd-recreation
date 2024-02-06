@@ -1,0 +1,67 @@
+.tab2 .container{
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-top: 110px;
+    padding-bottom: 130px;
+}
+
+.tab2 .text h3 {
+    font-size: 20px;
+    line-height: 43px;
+    color: #212121;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: left;
+}
+
+.tab2 .text p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #86878b;
+    font-weight: 400;
+    font-family: "Open Sans";
+    padding-bottom: 40px;
+}
+
+.tab2 .text p#main{
+    padding-top: 20px;
+}
+
+.tab2 .text h4{
+    font-size: 14px;
+    line-height: 17px;
+    color: #212121;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: left;
+}
+
+.tab2 .list-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.tab2 .list-container .element1{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tab2 .list-container .element2{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tab2 .icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #ff8b38;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

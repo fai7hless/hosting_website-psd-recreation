@@ -1,0 +1,145 @@
+header{
+    background-color: black;
+}
+
+header .nav-container{
+    max-width: 1100px;
+}
+
+header .nav-container img {
+    max-width: 80px;
+}
+
+header .nav-container{
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+header .nav-container ul{
+    display: flex;
+    justify-content: space-between;
+    width: 440px;
+}
+
+header .nav-container ul li a{
+    text-decoration: none;
+    opacity: 0.690;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: right;
+}
+header .content{
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header .content .bg-color{
+    background-color: rgba(0, 0, 0,0.522);
+    padding-top: 110px;
+    padding-bottom: 130px;
+    /* opacity: 0.522; */
+}
+
+header .content .container{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .content .img {
+    max-width: 175px;
+}
+
+header .content .text h1{
+    font-size: 36px;
+    color: #ffffff;
+    font-family: "Raleway";
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+
+header .content .text p{
+    opacity: 0.800;
+    font-size: 16px;
+    line-height: 23px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Raleway";
+    padding-top: 25px;
+    padding-bottom: 45px;
+}
+
+header .content .text button{
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Open Sans";
+    background-color: transparent;
+    border-color: white;
+    padding: 10px 32px;
+}
+
+header .content .signup {
+    max-width: 370px;
+    max-height: 386px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-sizing: border-box;
+    
+}
+
+header .content .signup form {
+    display: flex;
+    flex-direction: column;
+}
+
+header .content .signup h2{
+    text-align: center;
+    background-color: #f5f5f5;
+    font-size: 20px;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Open Sans";
+    padding: 20px 50px;
+}
+
+header .content .signup h2 span{
+    font-size: 20px;
+    color: #ff8b38;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+
+header .content .signup input{
+    font-size: 14px;
+    color: #bdbdbd;
+    font-weight: 400;
+    font-family: "Open Sans";
+    border: none;
+    border-bottom: 1px solid #bdbdbd;;
+    margin: 30px 30px;
+    padding: 5px 5px;
+
+}
+
+header .content .signup input[type="submit"]{
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Open Sans";
+    background-color: #ff9b51;
+    padding: 15px 0px;
+    width: 100%;
+    border: none;
+    margin: 0;
+
+}

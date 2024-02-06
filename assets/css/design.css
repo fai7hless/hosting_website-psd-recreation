@@ -1,0 +1,50 @@
+.design{
+    background-image: url('../images/bg2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.design .bg {
+    padding-top: 65px;
+    padding-bottom: 55px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.design .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.design .container h3{
+    font-size: 36px;
+    color: #ffffff;
+    font-family: "Raleway";
+}
+
+.design .container img{
+    max-width: 66px;
+    padding: 30px 0px;
+}
+
+.design .container p{
+    opacity: 0.800;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Raleway";
+    padding-bottom: 35px;
+}
+
+.design .container button{
+    
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Open Sans";
+    padding: 10px 25px;
+}

@@ -1,0 +1,85 @@
+.quotes{
+    background-color: white;
+    padding: 100px 0px;
+}
+
+.quotes .container{
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.quotes .container h3{
+    font-size: 36px;
+    line-height: 43px;
+    color: #212121;
+    font-family: "Raleway";
+    text-align: center;
+}
+
+.quotes .container img{
+    padding: 30px 0px;
+    max-width: 66px;
+}
+
+.quotes .container > p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #86878b;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    padding-bottom: 55px;
+}
+
+.quotes .bubbles{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 110px;
+}
+
+.quotes .bubbles .text{
+    background-image: url('../images/text-box.png');
+    width: 273px;
+    height: 147px;
+}
+
+.quotes .bubbles .text p{
+    font-size: 14px;
+    color: #86878b;
+    font-weight: 400;
+    font-family: "Open Sans";
+    padding: 25px 10px;
+}
+
+.quotes .bubbles .person {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.quotes .bubbles .names{
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quotes .bubbles .person h4{
+    font-size: 20px;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+
+.quotes .bubbles .person p{
+    font-size: 14px;
+    color: #86878b;
+    font-weight: 400;
+    font-family: "Open Sans";
+}

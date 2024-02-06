@@ -1,0 +1,30 @@
+.tab3{
+    background-color: #f5f5f5;  
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+
+.tab3 .container{
+    justify-content: space-between;
+      
+}
+
+.tab3 .text h3{
+    padding-top: 35px;
+    font-size: 20px;
+    line-height: 43px;
+    color: #212121;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: left;
+}
+
+.tab3 .text p{
+    padding-top: 25px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #86878b;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: left;
+}
